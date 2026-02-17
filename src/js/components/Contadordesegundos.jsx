@@ -41,7 +41,7 @@ function Contadordesegundos() {
 
     return (
         <div className="bg-dark vh-100 d-flex flex-column align-items-center justify-content-center text-white">
-            <h2 className="mb-4 fw-bold text-uppercaset">Contador</h2>
+            <h2 className="mb-4 fw-bold text-uppercaset"> Mi Contador</h2>
             <div className="d-flex aling-intems-center bg-black border border-danger border-3 p-4 rounded-3 shadow-lg">
                 <FontAwesomeIcon className="text-danger me-3 display-4" icon={faClock} />
                 <span className="display-1 fw-bold font-monospace">
