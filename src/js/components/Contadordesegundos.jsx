@@ -8,7 +8,7 @@ function Contadordesegundos() {
 
     const [cuenta, setCuenta] = useState(0)
 
-    const [estaCorriendo, setEstaCorriendo] = useState(false)
+    const [estaCorriendo, setEstaCorriendo] = useState(true)
 
 
 
@@ -54,7 +54,7 @@ function Contadordesegundos() {
                 <button
                     onClick={() => setEstaCorriendo(!estaCorriendo)}
                     className={'btn btn-lg btn-success rounded-0 px-4'}>
-                    <FontAwesomeIcon icon={faPlay} size="xl" /> </button>
+                    <FontAwesomeIcon icon={faPause} size="xl" /> </button>
 
 
                 <button
